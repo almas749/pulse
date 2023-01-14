@@ -30,6 +30,19 @@
             }
         }
     }
+    .headers {
+        font-size: 22px;
+        line-height: 28px;
+        &_left {
+            font-size: 24px;
+        }
+    }
+    .consultation {
+        &__descr {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
     .promo {
         &__header {
             font-size: 30px;
@@ -103,6 +116,10 @@
     }
     .headers {
         font-size: 18px;
+        &_left {
+            font-size: 20px;
+            line-height: 24px;
+        }
     }
     .benefits {
         padding: 45px 0 35px 0;
@@ -121,5 +138,12 @@
         &__title {
             margin-top: 10px;
         }
+    }
+    .consultation {
+        padding-top: 60px;
+    }
+    .feed-form {
+        margin-top: 28px;
+        width: 260px;
     }
 }
