@@ -18,6 +18,12 @@
             margin: 0 auto;
             margin-top: 65px;
         }
+        #animatedHeart {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }   
     }
     &__title {
         margin-top: 35px;
@@ -37,5 +43,4 @@
             color: #FF0000;
         }
     }
-    
 }
