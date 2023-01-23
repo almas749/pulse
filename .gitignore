@@ -21,3 +21,4 @@ yarn-debug.log*
 yarn-error.log*
 
 src/mailer/smart.php
+dist/mailer/smart.php
